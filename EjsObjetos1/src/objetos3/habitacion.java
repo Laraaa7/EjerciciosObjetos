@@ -17,7 +17,14 @@ public class habitacion {
 	public int dime_Numero() { //getter
 		return numero;
 	}
-
+	
+	public void establecer_Numero(int numero) { //setter
+		if (numero < 1) {
+			System.out.println("El número de habitación tiene que ser mayor a cero");
+		}else {
+			this.numero = numero;
+		}
+	}
 	public String dime_Tipo() { //getter
 		return tipo;
 	}
@@ -34,13 +41,7 @@ public class habitacion {
 	public void establecer_Ocupada(boolean ocupada) { //setter
 		this.ocupada = ocupada;
 	}
-	public void establecer_Numero(int numeroHab) { //setter
-		if (numeroHab < 1) {
-			System.out.println("El número de habitación tiene que ser mayor a cero");
-		}else {
-			this.numero = numeroHab;
-		}
-	}
+
 
 
 	}
