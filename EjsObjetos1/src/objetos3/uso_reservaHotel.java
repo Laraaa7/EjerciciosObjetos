@@ -16,8 +16,18 @@ public class uso_reservaHotel {
 		hotel.habitaciones.add(habitacion3);
 
 		// reservar una habitación
-		hotel.reservar_Habitacion(6);
+		hotel.reservar_Habitacion(7);
 		
-	}
+		//cancelar reserva
+		hotel.cancelar_Reserva(7);
+		
 
+        // verificar disponibilidad después de cancelar la reserva
+        boolean disponibilidad = hotel.verificar_Disponibilidad(7);
+        if (disponibilidad) {
+            System.out.println("La habitación está disponible");
+        } else {
+            System.out.println("La habitación no está disponible");
+        }
+    }
 }
