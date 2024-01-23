@@ -39,7 +39,7 @@ public class receta {
   public void añadirPaso(String paso) { //método para añadir pasos a la lista de pasos
   	this.pasos.add(paso);
   }
-  //método para mostrar la receta imprimiendo el nombre del plato, la lista de ingredientes y la de pasos
+  //método para mostrar la receta imprimiendo el nombre del plato, la lista de ingredientes y de pasos
   public void mostrarReceta() {
       System.out.println("Receta para " + plato + ":");
       System.out.println("\nIngredientes:");
