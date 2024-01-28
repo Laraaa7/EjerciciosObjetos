@@ -38,6 +38,11 @@ public class producto {
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
+	//método para el resumen del inventario
+	public String Resumen() {
+		 return "Nombre del producto: " + this.nombre + "\nCantidad del producto: "
+				 + this.cantidad +"\nPrecio del producto: " + this.precio + " €";
+		}
 	
 }
 
