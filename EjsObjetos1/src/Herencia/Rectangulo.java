@@ -2,9 +2,11 @@ package Herencia;
 
 public class Rectangulo extends Figura{
 
+	//variables
 	private double base;
     private double altura;
     
+    //constructor
 	public Rectangulo(double base, double altura) {
 		this.base = base;
 		this.altura = altura;
