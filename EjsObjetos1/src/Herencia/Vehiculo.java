@@ -12,7 +12,7 @@ public class Vehiculo {
 		this.modelo=modelo;
 		this.año=año;
 	}
-	//métodos para mostrar la información
+	//métodos para mostrar la información del vehículo
 	public void mostrarMarca() {
 		System.out.println("La marca del vehículo es "+marca);
 	}
